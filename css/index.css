@@ -159,7 +159,7 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  background: lightblue;
+  background: orange;
 }
 .navarea {
   display: flex;
@@ -168,7 +168,7 @@ p {
   align-items: center;
   width: 100%;
   margin: auto;
-  background-color: orange;
+  background: lightblue;
   border-bottom: 1px solid #dee2e6;
 }
 .navarea .navhead {
@@ -197,4 +197,7 @@ p {
   padding: 14px;
   text-decoration: none;
   color: #454A59;
+}
+.home .mainheader {
+  width: 100%;
 }
