@@ -162,6 +162,22 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.cta {
+  display: inline-block;
+  padding: 12px 70px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+.primary-cta {
+  background: #fb8570;
+  border: solid 2px #fb8570;
+}
+.secondary-cta {
+  color: #fb8570;
+  border: solid 2px;
+}
 .home-header {
   background: url('/assets/header-bg.svg') no-repeat;
   background-size: cover;
@@ -177,14 +193,44 @@ p {
   max-width: 90%;
 }
 .home-header nav .logo {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   color: white;
   font-weight: 700;
   font-style: normal;
 }
 .home-header nav .nav-links a {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   text-decoration: none;
   color: #363636;
   margin: 0 40px;
+}
+.home-header .header-info {
+  display: flex;
+  justify-content: space-between;
+}
+.home-header .header-info h1 {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 30px;
+}
+.home-header .header-info h2 {
+  color: white;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin: 10px 0;
+}
+.home-header .header-info .ctas .cta {
+  margin: 40px 20px 0px 0px;
+}
+.home-header .phone-wrapper {
+  position: relative;
+}
+.home-header .phone-wrapper img {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-115%, -15%);
+  width: 200px;
 }
