@@ -1,5 +1,6 @@
 .home-header{
     background: url('/assets/header-bg.svg') no-repeat;
+    background-position: fixed;
     background-size: cover;
     height: 500px;
     width: 100%;
@@ -20,6 +21,7 @@
         }
         .nav-links a{
             font-size: 1.8rem;
+            font-weight: bold;
             text-decoration: none;
             color: #363636;
             margin: 0 40px 0 0;
@@ -58,8 +60,45 @@
             right: 50%;
             transform: translate(-115%, -20%);
             width: 200px;
-            animation: fadeIn 1100ms linear;
+            animation: fadeIn 1250ms linear;
 
         }
     }
+}
+
+.features{
+    height: 500px;
+    margin-top: 70px;
+    h2{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .features-group{
+        display: flex;
+        margin-top: 30px;
+
+        .feature-card{
+            width: 250px;
+            height: 100%;
+            padding: 20px;
+            border-radius: 15px;
+            background: #d9eeff;
+            margin: 20px 20px 20px 0px;
+
+            .card-title{
+                font-size: 1.8rem;
+            }
+            .card-img{
+                
+                width: 100%;
+                margin: 10px 0;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+
+        }
+    }
+
+
 }
