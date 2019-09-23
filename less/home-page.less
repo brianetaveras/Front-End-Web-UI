@@ -63,8 +63,26 @@
             transform: translate(-115%, -20%);
             width: 200px;
             animation: fadeIn 1250ms linear;
+            animation-timing-function: ease-in-out;
+            
 
         }
+    }
+}
+
+.story{
+    margin-top: 70px;
+    h2{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    h1{
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    p{
+        line-height: 32px;
+        margin-top: 10px;
     }
 }
 
@@ -76,27 +94,38 @@
         font-weight: 700;
     }
 
+    
+
     .features-group{
         display: flex;
+        justify-content: space-between;
         margin-top: 30px;
-
+        p{
+            line-height: 28px;
+        }
         .feature-card{
-            width: 250px;
-            height: 100%;
+            width: 270px;
+            height: 370px;
             padding: 20px;
             border-radius: 15px;
             background: #d9eeff;
-            margin: 20px 20px 20px 0px;
+            text-align: center;
+            // margin: 20px 20px 20px 0px;
 
             .card-title{
                 font-size: 1.8rem;
+                text-align: center;
+                font-weight: 700;
             }
             .card-img{
-                
-                width: 100%;
+
+                width: 150px;
                 margin: 10px 0;
                 border-radius: 10px;
                 overflow: hidden;
+            }
+            .card-content{
+                // text-align: left;
             }
 
         }
