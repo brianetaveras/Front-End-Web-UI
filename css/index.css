@@ -174,7 +174,7 @@ p {
 }
 .cta {
   display: inline-block;
-  padding: 12px 70px;
+  padding: 12px 48px;
   color: white;
   text-decoration: none;
   font-size: 1.4rem;
@@ -185,15 +185,13 @@ p {
   border: solid 2px #fb8570;
 }
 .secondary-cta {
-  color: #fb8570;
+  color: white;
   border: solid 2px;
 }
 .home-header {
   background: url('/assets/header-bg.svg') no-repeat;
-  background-position: fixed;
   background-size: cover;
   height: 500px;
-  width: 100%;
 }
 .home-header nav {
   height: 100px;
@@ -204,6 +202,7 @@ p {
   max-width: 1200px;
 }
 .home-header nav .logo {
+  margin-left: 50px;
   font-size: 2.4rem;
   color: white;
   font-weight: 700;
@@ -214,7 +213,7 @@ p {
   font-weight: bold;
   text-decoration: none;
   color: #363636;
-  margin: 0 40px 0 0;
+  margin: 0 40px 0 40px;
 }
 .home-header .header-info {
   display: flex;
@@ -235,7 +234,10 @@ p {
   margin: 10px 0;
 }
 .home-header .header-info .ctas .cta {
-  margin: 40px 20px 0px 0px;
+  margin: 20px 20px 0 0;
+}
+.home-header .header-info .text {
+  margin-left: 50px;
 }
 .home-header .phone-wrapper {
   position: relative;

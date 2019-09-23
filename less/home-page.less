@@ -1,9 +1,7 @@
 .home-header{
     background: url('/assets/header-bg.svg') no-repeat;
-    background-position: fixed;
     background-size: cover;
     height: 500px;
-    width: 100%;
 
     nav{
         height: 100px;
@@ -14,17 +12,19 @@
         max-width: @max-width;
 
         .logo{
+            margin-left: 50px;
             font-size: 2.4rem;
             color: white;
             font-weight: 700;
             font-style: normal;
         }
+    
         .nav-links a{
             font-size: 1.8rem;
             font-weight: bold;
             text-decoration: none;
             color: #363636;
-            margin: 0 40px 0 0;
+            margin: 0 40px 0 40px;
         }
     }
 
@@ -47,9 +47,11 @@
             line-height: 3.2rem;
             margin: 10px 0;
         }
-
         .ctas .cta{
-            margin: 40px 20px 0px 0px;
+            margin: 20px 20px 0 0;
+        }
+        .text{
+            margin-left: 50px;
         }
     }
     .phone-wrapper{
