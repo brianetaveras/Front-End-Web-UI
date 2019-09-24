@@ -1,43 +1,68 @@
 // General Styles
+@import url("https://use.typekit.net/hwf0dil.css");
+
+
+
 * {
     box-sizing: border-box;
-}
-
-html {
+  }
+  
+  html {
     font-size: 62.5%;
-}
+  }
+  
+  html, body {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
-html,
-body {
-    font-family: 'Ubuntu', sans-serif;
-    color: @main-font-color;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5 {
+  
+  h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
-    color: @header-font-color;
-}
-
-h2 {
+    color: #363636;
+  }
+  
+  h2 {
     font-size: 3.2rem;
-}
-
-h3 {
+  }
+  
+  h3 {
     font-size: 2.8rem;
-}
-
-p {
+  }
+  
+  p {
     font-size: 1.6rem;
     line-height: 1.4;
-}
-
-.container {
-    max-width: 800px;
+  }
+  
+  .container {
+    max-width: @max-width;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto;  
+  }
 
-}
+  .cta{
+      display: inline-block;
+      padding: 12px 48px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 700;
+      border-radius: 5px;
+      letter-spacing: 0.5px;
+  }
+
+  .primary-cta{
+      background: #fb8570;
+      border: solid 2px #fb8570;
+  }
+  .secondary-cta{
+     color: white;
+     border: solid 2px;
+     
+  }
+
+
+
+  
