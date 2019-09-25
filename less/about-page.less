@@ -1,0 +1,108 @@
+.about-header{
+    background: @main-color;
+    height: 150px;
+    padding: 20px;
+    nav{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: @max-width;
+        padding: 20px;
+        @media @phone{
+            flex-direction: column;
+            padding: 20px 0;
+        }
+
+        .logo a{
+            font-size: 2.4rem;
+            color: white;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            
+            
+    
+        }
+        .nav-links{
+            display: flex;
+        }
+        .nav-links a{
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            margin: 0 40px 0 40px;
+            @media @phone{
+                margin: 0 30px;
+                display: inline-block;
+                color: white;
+                
+            }
+        }
+    }
+}
+
+.meet-the-team{
+    padding: 20px;
+    text-align: center;
+
+    h1{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .desc{
+        margin: 20px 0;
+        font-size: 1.8rem;
+        line-height: 28px;
+    }
+    .team-group{
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        
+        @media @phone{
+            flex-direction: column;
+        }
+        @media @tablet{
+            flex-direction: column;
+            
+        }
+
+        .card{
+            width: 23%;
+            // height: 270px;
+            padding: 20px;
+            border-radius: 15px;
+            background: #d9eeff;
+            text-align: center;
+            @media @phone{
+                width: 100%;
+                margin: 10px 0;
+            }
+            @media @tablet{
+                width: 100%;
+                display: inline-block;
+                margin: 10px 0;
+            }
+        }
+        .card .img img{
+            border-radius: 200px;
+            width: 80%;
+        }
+        .name{
+            font-size: 1.8rem;
+            margin: 10px 0;
+        }
+        .role{
+            font-size: 1.4rem;
+            padding: 5px;
+            background: #00bc98;
+            color: white;
+            border-radius: 5px;
+            margin: 0 auto;
+            display: inline-block;
+        }
+    }
+}
