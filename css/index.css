@@ -182,11 +182,11 @@ p {
 }
 @keyframes fadeIn {
   from {
-    transform: translate(-75%, 10%);
+    transform: translate(-60%, 10%);
     opacity: 0;
   }
   to {
-    transform: translateY(-75%, -20%);
+    transform: translateY(-60%, -20%);
     opacity: 1;
   }
 }
@@ -301,7 +301,7 @@ p {
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(-75%, -19%);
+  transform: translate(-60%, -19%);
   width: 250px;
   animation: fadeIn 1250ms linear;
   animation-timing-function: ease-in-out;
@@ -357,7 +357,7 @@ p {
 }
 .features .features-group .feature-card {
   width: 23%;
-  height: 370px;
+  height: 380px;
   padding: 10px;
   border-radius: 15px;
   background: #d9eeff;
@@ -457,6 +457,7 @@ p {
   margin: 20px 0;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 @media (max-width: 500px) {
   .meet-the-team .team-group {
@@ -504,6 +505,12 @@ p {
   border-radius: 5px;
   margin: 0 auto;
   display: inline-block;
+}
+.meet-the-team .team-group .social {
+  margin: 10px 0;
+}
+.meet-the-team .team-group .social img {
+  width: 32px;
 }
 footer {
   height: 250px;
