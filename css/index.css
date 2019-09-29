@@ -175,10 +175,22 @@ p {
 .primary-cta {
   background: #fb8570;
   border: solid 2px #fb8570;
+  transition: 1s;
+}
+.primary-cta:hover {
+  background: white;
+  border: white 2px solid;
+  color: #363636;
 }
 .secondary-cta {
   color: white;
   border: solid 2px;
+  transition: 1s;
+}
+.secondary-cta:hover {
+  background: #fb8570;
+  color: white;
+  border: #fb8570 2px solid;
 }
 @keyframes fadeIn {
   from {
@@ -337,8 +349,10 @@ p {
 }
 .features .features-group {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 30px;
+  background: #d9eeff;
+  border-radius: 20px;
 }
 @media (max-width: 500px) {
   .features .features-group {
@@ -356,11 +370,9 @@ p {
   line-height: 28px;
 }
 .features .features-group .feature-card {
-  width: 23%;
+  padding: 20px;
+  width: 40%;
   height: 380px;
-  padding: 10px;
-  border-radius: 15px;
-  background: #d9eeff;
   text-align: center;
 }
 @media (max-width: 500px) {
@@ -381,7 +393,7 @@ p {
   font-weight: 700;
 }
 .features .features-group .feature-card .card-img {
-  width: 150px;
+  width: 200px;
   margin: 10px 0;
   border-radius: 10px;
   overflow: hidden;
@@ -452,6 +464,8 @@ p {
   margin: 20px 0;
   font-size: 1.8rem;
   line-height: 28px;
+  width: 46%;
+  margin: 20px auto;
 }
 .meet-the-team .team-group {
   margin: 20px 0;

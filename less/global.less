@@ -54,12 +54,27 @@
   }
 
   .primary-cta{
-      background: #fb8570;
-      border: solid 2px #fb8570;
-  }
-  .secondary-cta{
-     color: white;
+      background: @primary-cta-color;
+      border: solid 2px @primary-cta-color;
+      transition: 1s;
+      
+      &:hover{
+        background: white;
+        border: white 2px solid;
+        color: #363636;
+        
+      }
+    }
+    .secondary-cta{
+      color: white;
      border: solid 2px;
+     transition: 1s;
+
+     &:hover{
+       background: @primary-cta-color;
+       color: white;
+       border: @primary-cta-color 2px solid;
+     }
      
   }
 

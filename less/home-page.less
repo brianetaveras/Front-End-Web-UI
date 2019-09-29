@@ -131,7 +131,6 @@
 
 .features{
     padding: 20px;
-    // height: 500px;
     margin-top: 70px;
     h2{
         font-size: 1.8rem;
@@ -142,9 +141,10 @@
 
     .features-group{
         display: flex;
-        // flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 30px;
+        background: #d9eeff;
+        border-radius: 20px;
         @media @phone{
             flex-direction: column;
             justify-content: space-around;
@@ -157,11 +157,9 @@
             line-height: 28px;
         }
         .feature-card{
-            width: 23%;
+            padding: 20px;
+            width: 40%;
             height: 380px;
-            padding: 10px;
-            border-radius: 15px;
-            background: #d9eeff;
             text-align: center;
             @media @phone{
                 width: 90%;;
@@ -177,7 +175,7 @@
                 font-weight: 700;
             }
             .card-img{
-                width: 150px;
+                width: 200px;
                 margin: 10px 0;
                 border-radius: 10px;
                 overflow: hidden;
